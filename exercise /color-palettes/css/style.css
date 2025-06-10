@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#color-palette-1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#color-1 {
+    background-color: #CAF0F8;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-2 {
+    background-color: #F7C8F0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-3 {
+    background-color: #C8F7CA;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-palette-2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#color-4 {
+    background-color: #3BFF96;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-5 {
+    background-color: #FFA73B;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-6 {
+    background-color: #BEFF3B;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-palette-3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#color-7 {
+    background-color: #FFDB3B;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-8 {
+    background-color: #F7A6A6;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-9 {
+    background-color: #A6F7D9;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+
+
+
