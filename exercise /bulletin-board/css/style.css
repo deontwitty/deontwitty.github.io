@@ -6,6 +6,18 @@
 
     Good luck, and have fun!
 */
-#post-it {
-    background-color: blue;
+#Pink-Lavender-post-it {
+    background-color: #F7C8F0;
+    padding: 50px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+}
+
+#Light-Cyan-post-it {
+    background-color: #CAF0F8;
+    padding: 50px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
 }
