@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 10px dashed red;
+    margin: 24px 12px;
+    padding: 24px 36px;
+    background-color: aquamarine;
+}
+
+p {
+    border: 20px dotted blueviolet;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: cadetblue;
+    border-radius: 4px;
+}
