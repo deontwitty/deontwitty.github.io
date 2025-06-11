@@ -6,42 +6,36 @@
 
     Good luck, and have fun!
 */
-#Pink-Lavender-post-it {
-     padding: 24px;
-    border-width: 10px;
-    margin: 24px;
+.post-it {
+    background-color: yellow;
     display: inline-block;
-    background-color: yellowgreen;
-}
-
-#Light-Cyan-post-it {
-    background-color: #CAF0F8;
+    width: 250px;
+    height: 200px;
     padding: 24px;
     margin: 24px;
-    text-align: center;
-    display: inline-block;
+    font-family: sans-serif;
+}
+
+#pink-lavender-post-it {
+    background-color: pink;
+}
+
+#light-cyan-post-it {
+    background-color: #9ee6f4;
 }
 
 #yellow-post-it {
     background-color: #ffff00;
-    padding: 24px;
-    margin: 24px;
-    text-align: center;
-    display: inline-block ;
 }
 
 #red-post-it {
-    background-color: red;
-    padding: 24px;
-    margin: 24px;
-    display: inline-block;
-    color: white;
+    background-color: rgb(251, 57, 57);
 }
 
 #purple-post-it {
-    background-color: purple;
-    padding: 24px;
-    margin: 24px;
-    display: inline-block;
-    color: white;
+    background-color: rgb(187, 64, 187);
+}
+
+#green-post-it {
+    background-color: rgb(102, 250, 102);
 }
