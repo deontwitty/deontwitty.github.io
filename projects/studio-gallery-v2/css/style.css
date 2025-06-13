@@ -1,0 +1,47 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.kazuya {
+    width: 200px;
+    height: 150px;
+    background-color: #B59B70;
+    margin: 85px 200px;
+    padding: 10px;
+    border: 100px;
+    display: inline-block;
+}
+
+.jin {
+    width: 125px;
+    height: 100px;
+    background-color: #B59B70;
+    margin: 100px -190px;
+    padding: 10px;
+    border: 100px;
+    display: inline-block;
+}
+
+.heihachi {
+    width: 125px;
+    height: 100px;
+    background-color: #B59B70;
+    margin: 100px -345px;
+    padding: 10px;
+    border: 100px;
+    display: inline-block;
+}
+
+.Takuji-Kawano {
+    color: white;
+    text-align: center;
+    background-color: crimson;
+    margin: 200px 100px;
+    padding: 1px;
+    display: inline-block;
+}
