@@ -211,3 +211,10 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+
+/* @media screen and (max-width: 728px;) {
+    #nav {
+        flex-direction: column;
+    }
+} */
+
