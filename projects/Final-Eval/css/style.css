@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* font-family: sans-serif; */
+}
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar,
+#footer {
+    background-color: #9f0d0d;
+}
+
+#navbar a,
+#footer a {
+    color: #e8d679;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
+
+/*
+    This is an example of a more interesting 
+    single column layout, still using the
+    exact same column styles, with the 
+    inclusion of a new footer.
+*/
+#navbar-column,
+.center-column,
+#footer-column {
+    width: 500px;
+    margin: 0px auto;
+}
+
+/*
+    However, just because we're using a single 
+    column layout, that doesn't mean it has to 
+    be boring, or that we can't break up the 
+    column across multiple sections.
+
+    The .light-container and .dark-container 
+    elements all contain our .center-column,
+    but wrap it with additional padding on the
+    top and bottom, in addition to giving each
+    section a contrasting color.
+
+    This helps break up the monotony of the 
+    page flow by introducing new colors and
+    adding additional space to separate content.
+*/
+.light-container {
+    background: linear-gradient(
+        -50deg, 
+        #df5454, 
+        #44449e
+    );
+
+    padding: 36px 0px;
+}
+
+
+
+
+/*
+    To add even more diversity to our layout,
+    we add some text and image content side-by-side
+    to make sure our layout isn't too repetitious,
+    using our old friend, inline-block.
+
+    We'll soon be learning a new way to get content
+    side-by-side, but it is a bit more complex, so
+    we'll stick with what we know for now.
+*/
+.side-by-side {
+    display: inline-block;
+    width: 49%;
+}
+
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
+}
+
+#card-section {
+    background-color: #5b00ed;
+    color: #bfefff;
+    padding: 48px;
+}
+
+/*
+    Here we make our .card-container into a flexbox
+    and tell it to space out the flex items using
+    justify content with space-between.
+
+    If you'd rather the card be centered, you could
+    always change justify-content to center.
+*/
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+    The flex: 1; below makes each card equally
+    sized within the flexbox (unless the container
+    gets too small, then they may get squished).
+
+    However, if you don't want them to grow too
+    wide, you may want to consider adding a 
+    max-width property.
+*/
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
